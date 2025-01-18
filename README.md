@@ -41,7 +41,6 @@ A interface é simples, mas funcional, com os seguintes elementos:
 │   ├── img/           #Imagens do projeto.
 │   └── js/
 │       └── main.js    # Lógica e validações em JavaScript.
-
 └── README.md         # Documentação do projeto.
 ```
 
