@@ -71,7 +71,3 @@ A interface é simples, mas funcional, com os seguintes elementos:
 
 - Integração com um back-end para autenticação real.
 - Estilizações mais avançadas para melhorar a experiência do usuário.
-
-## Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo LICENSE para mais informações.
