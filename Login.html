@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="icon" href="assets/img/ico.svg" />
+  </head>
+  <body>
+    <button id="darkModeToggle" class="btn">
+      <img
+        src="/assets/img/moon.png"
+        alt="Ativar modo escuro"
+        class="imagem-botao"
+      />
+    </button>
+    <div class="container">
+      <div class="content">
+        <div class="column1">
+          <a href="https://avati.com.br/corporacao/">
+            <img
+              src="/assets/img/logo.png"
+              id="logo"
+              class="logo"
+              alt="AVATI Consultoria em Gestão da Inovação"
+          /></a>
+          <h1 class="text-center">Login</h1>
+          <form class="form-login">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" placeholder="Email" />
+            <p class="error-message" id="email-error"></p>
+            <div class="space"></div>
+            <label for="senha">Senha:</label>
+            <input
+              type="password"
+              id="senha"
+              name="senha"
+              placeholder="Senha"
+            />
+            <p class="error-message" id="password-error"></p>
+            <div class="space"></div>
+            <div class="space"></div>
+            <button
+              class="login-button"
+              onclick="return validaLogin()"
+              type="button"
+            >
+              Entrar
+            </button>
+
+            <p
+              class="loading-message"
+              id="loading-message"
+              style="display: none"
+            >
+              Enviando...
+            </p>
+            <p class="success-message" id="success-message"></p>
+          </form>
+        </div>
+
+        <div class="column2">
+          <img
+            src="/assets/img/arena.jpg"
+            class="image"
+            alt="Imagem de uma pessoa com um notebook"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
